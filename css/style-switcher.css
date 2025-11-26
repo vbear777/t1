@@ -1,0 +1,76 @@
+.style-switcher {
+    position: fixed;
+    color: white;
+    top: 60px;
+    padding: 15px;
+    width: 200px;
+    right: 0;
+    border: 1px solid var(--bg-black-third);
+    background: var(--bg-black-second);
+    border-radius: 5px;
+    z-index: 103;
+    transition: all 0.5s ease;
+    transform: translateX(100%);
+}
+
+.style-switcher.open {
+    transform: translateX(-25%);
+}
+
+.style-switcher .s-icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 17px;
+    color: var(--text-white-snow);
+    right: 105%;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    z-index: 10;
+    cursor: pointer;
+    text-shadow: 0 0 15px var(--skin-color-va);
+}
+
+.style-switcher h4 {
+    margin: 0 0 10px;
+    color: var(--text-white-snow);
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.style-switcher .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style-switcher .colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--text-white-snow);
+    cursor: pointer;
+}
+
+.style-switcher .colorxa {
+    background: #f5bf03;
+}
+
+.style-switcher .colorxb {
+    background: #68c6dd;
+}
+
+.style-switcher .colorxc {
+    background: #057569;
+}
+
+.style-switcher .colorxd {
+    background: #893A49;
+}
+
+.style-switcher .colorxe {
+    background: #74070E;
+}
