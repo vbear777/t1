@@ -1229,9 +1229,22 @@ h3.profession {
         gap: 15px;
     }
 
+    .portfolio .portfolio-heading p {
+        font-size: 0.6rem;
+    }
+
     .portfolio .portfolio-item-inner .portfolio-img {
         max-height: 70%;
         height: 70%;
+    }
+
+    
+    .portfolio .portfolio-item-inner h4 {
+        font-size: 0.6rem;
+    }
+
+    .portfolio .portfolio-item-inner p {
+        font-size: 0.6rem;
     }
 
     .portfolio .portfolio-item-inner .portfolio-img img {
@@ -1301,6 +1314,83 @@ h3.profession {
     }
 }
 
+
+@media (max-width: 375px) {
+    .home-section .home-info {
+        margin-right: 2%;
+    }
+
+
+    .home-section .home-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    h3.hi {
+        font-size: 0.6rem !important;
+    }
+
+    h3.profession {
+        font-size: 0.6rem !important;
+        font-weight: 700;
+    }
+
+    .home-info p {
+        font-size: 0.5rem;
+        letter-spacing: 0.2px;
+    }
+
+    .home-section .home-img::after {
+        right: 10;
+        bottom: 70px;
+    }
+    
+    .about .about-content .personal-info .info-item p {
+        font-size: 0.7rem;
+    }
+    
+    .about .about-content .timeline .timeline-date {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 0%;
+    }
+
+    .about .about-content .timeline .timeline-title {
+        font-size: 0.6rem !important;
+        margin-top: 20%;
+        font-weight: 800;
+    }
+
+    .about .about-content .timeline .timeline-text {
+        font-size: 0.5rem;
+        text-align: start;
+        line-height: 15px;
+    }
+
+    .contact-title {
+        font-size: 0.8rem;
+    }
+
+    .contact-sub-title {
+        font-size: 0.6rem;
+    }
+
+    .contact .contact-info-item h4 {
+        font-size: 0.8rem;
+    }
+
+    .contact .contact-info-item p {
+        font-size: 0.7rem;
+    }
+
+    .skills .service-item .service-item-inner {
+        padding: 20px 8px;
+    }
+
+    .skills .service-item .service-item-inner h4 {
+        font-size: 0.8rem;
+    }
+}
 
 @media (max-width: 360px) {
     .home-section .home-info {
