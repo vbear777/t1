@@ -53,6 +53,7 @@
     border-radius: 50%;
     border: 1px solid var(--text-white-snow);
     cursor: pointer;
+    margin-bottom: 7px;
 }
 
 .style-switcher .colorxa {
@@ -73,4 +74,8 @@
 
 .style-switcher .colorxe {
     background: #74070E;
+}
+
+.style-switcher .colorxf {
+    background: #634081;
 }
