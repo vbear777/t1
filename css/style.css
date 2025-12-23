@@ -622,7 +622,7 @@ h3.profession {
 }
 
 .portfolio .portfolio-item-inner {
-    border: 1px solid var(--bg-black-third);
+    border: transparent;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
